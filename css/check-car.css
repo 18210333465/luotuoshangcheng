@@ -1,0 +1,753 @@
+
+
+/*购物车结算 logo右*/
+.check-box{
+	width:930px;
+	height:125px;
+	float:right;
+	}
+.check-box ul{
+	width:510px;
+	height:85px;
+	background:url(../images/check-1.png) no-repeat top center;
+	margin-top:40px;
+	float:right;
+	}
+.check-box ul li{
+	width:170px;
+	height:80px;
+	line-height:80px;
+	float:left;
+	text-align:center;
+	}
+
+/*我的购物车*/
+.box-car{
+	width:1210px;
+	height:530px;
+	padding-top:10px;
+	margin:0 auto;
+	}
+.box-car .box-car-top{
+	width:1210px;
+	height:35px;
+	line-height:35px;
+	border-bottom:3px solid #e12428;
+	}
+.box-car .box-car-top h3{
+	color:#333;
+	font-size:20px;
+	font-weight:bold;
+	float:left;
+	}
+.box-car .box-car-top a{
+	color:#005ea7;
+	float:right;
+	padding-top:3px;
+	text-decoration:none;
+	}
+.box-car .box-car-top a:hover{
+	text-decoration:underline;
+	}
+.box-car .box-car-pro{
+	width:1210px;
+	height:346px;
+	background:#fff;
+	}
+.box-car .box-car-pro table{
+	border-top:none;
+	}
+.box-car .box-car-pro table tr{
+	height:100px;
+	border-top:1px solid #ccc;
+	padding:0;
+	margin:0;
+	}
+.box-car .box-car-pro table td{
+	border:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	}
+.box-car .box-car-pro table thead{
+	width:1210px;
+	height:36px;
+	line-height:36px;
+	}
+.box-car .box-car-pro table thead tr{
+	border-top:none;
+	}
+.box-car .box-car-pro table thead th{
+	width:270px;
+	height:36px;
+	text-align:center;
+	border:none;
+	color:#666;
+	}
+.box-car .box-car-pro table thead tr input{
+	margin:11px 9px 0 18px;
+	float:left;
+	}
+.box-car .box-car-pro table .box-check-all{
+	text-align:left; 
+	width:120px;
+	height:36px;
+	line-height:36px;
+	}
+.box-car .box-car-pro table .box-check-all a{
+	color:#666;
+	text-decoration:none;
+	}
+.box-car .box-car-pro table td img{
+	border:1px solid #ccc;
+	padding:10px;
+	float:left;
+	background:#fff;
+	}
+.box-car .box-car-pro table td img:hover{
+	border:1px solid #fc3;
+	}
+.box-car .box-car-pro table td a{
+	color:#005ea7;
+	text-decoration:none;
+	float:left;
+	margin-right:15px;
+	}
+.box-car .box-car-pro table td a:hover{
+	text-decoration:underline;
+	}
+.box-car .box-car-pro  .pro-dust{
+	line-height:40px;
+	}
+
+/*产品增加与减少*/
+.box-car .box-car-pro table td .def-down,.m-item-inner .def-down{
+	width:26px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	display:block;
+	border:1px solid #ccc;
+	float:left;
+	background:url(../images/add-1.png) no-repeat center center;
+	background-position:6px 7px;
+	margin:0;
+	margin-left:85px;
+	}
+.box-car .box-car-pro table td .pro-gods-num,.m-item-inner .pro-gods-num{
+	width:30px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	display:block;
+	border:1px solid #ccc;
+	border-left:none;
+	border-right:none;
+	float:left;
+	padding:0;
+	}
+.box-car .box-car-pro table td .add-up,.m-item-inner .add-up{
+	width:26px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	display:block;
+	border:1px solid #ccc;
+	float:left;
+	background:url(../images/add-1.png) no-repeat center center;
+	background-position:-16px 7px;
+	margin:0;
+	padding:0;	
+	}
+.box-car .box-car-pro table td .del-false{
+	padding-left:116px;
+	}
+
+/*清空购物车*/
+.box-car .check-clea{
+	width:1208px;
+	height:77px;
+	border:1px solid #dfddde;
+	border-top:none;
+	background:#fff;
+	}
+.box-car .check-clea .clear-L{
+	float:left;
+	}
+.box-car .check-clea .clear-L a{
+	color:#005ea7;
+	height:77px;
+	line-height:77px;
+	padding-left:30px;
+	text-decoration:none;
+	}
+.box-car .check-clea .clear-L a:hover{
+	text-decoration:underline;
+	}
+.box-car .check-clea .clear-L span{
+	width:65px;
+	height:77px;
+	line-height:77px;
+	display:block;
+	float:left;
+	}
+.box-car .check-clea .clear-L span input{
+	float:left;
+	margin:30px 9px 0 18px;
+	}
+.box-car .check-clea .clear-L span a{
+	color:#666;
+	text-decoration:none;
+	padding:0;
+	float:right;
+	}
+.box-car .check-clea .clear-L span a:hover{
+	text-decoration:none;
+	}
+.box-car .check-clea .clear-R{
+	float:right;
+	}
+.box-car .check-clea .clear-R p{
+	color:#666;
+	height:76px;
+	line-height:76px;
+	}
+.box-car .check-clea .clear-R p span{
+	color:#e12418;
+	padding:0 72px 0 10px;
+	}
+.box-car .check-lear{
+	width:1208px;
+	height:66px;
+	border:1px solid #dfddde;
+	background:#fafafa;
+	border-top:none;
+	}
+.box-car .check-lear .check-cost{
+	width:300px;
+	height:66px;
+	line-height:66px;
+	float:right;
+	}
+.box-car .check-lear .check-cost span{
+	color:#666;
+	padding-right:30px;
+	float:left;
+	}
+.box-car .check-lear .check-cost span strong{
+	color:#e12418;
+	font-size:22px;
+	}
+.box-car .check-lear .check-cost a{
+	width:170px;
+	height:66px;
+	background:#e12428;
+	text-align:center;
+	font-size:22px;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	float:right;
+	}
+.box-car .check-lear .check-cost a:hover{
+	background:#f00;
+	}
+
+/*商品及收件人核对信息*/
+.check-box .check-mes-ul{
+	width:510px;
+	height:85px;
+	background:url(../images/check-2.png) no-repeat top center;
+	margin-top:40px;
+	float:right;
+	}
+
+.check-mes{
+	width:1208px;
+	margin:0 auto;
+	margin-top:15px;
+	/*height:910px;*/
+	border:1px solid #dfddde;
+	border-top:none;
+	}
+.check-mes .check-mes-top{
+	width:1210px;
+	height:36px;
+	line-height:36px;
+	border-top:3px solid #e12428;
+	border-bottom:1px solid #dfddde;
+	}
+.check-mes .check-mes-top h3{
+	color:#333;
+	font-size:20px;
+	font-weight:bold;
+	padding-left:10px;
+	}
+.check-mes .check-mes-btm{
+	width:1208px;
+	/*height:870px;*/
+	background:#fff;
+	}
+.check-mes .check-mes-btm .check-recep{
+	width:1162px;
+	height:128px;
+	border-bottom:1px solid #dfddde;
+	padding:0 23px;
+	}
+.check-mes .check-mes-btm p{
+	color:#000;
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+	}
+.check-mes .check-mes-btm span{
+	color:#005ea7;
+	margin-left:10px;
+	font-size:12px;
+	}
+.check-mes .check-mes-btm span a{
+	color:#005ea7;
+	text-decoration:none;
+	}
+.check-mes .check-mes-btm span a:hover{
+	color:#005ea7;
+	text-decoration:underline;
+	}
+.check-mes .check-mes-btm .check-recep .check-recep-name{
+	width:1116px;
+	padding:0 23px;
+	}
+.check-mes .check-mes-btm .check-recep .check-recep-name p{
+	height:24px;
+	line-height:24px;
+	color:#666;
+	font-size:12px;
+	}
+.check-mes .check-mes-btm .check-manner{
+	width:1162px;
+	height:104px;
+	border-bottom:1px solid #dfddde;
+	padding:0 23px;
+	}
+.check-mes .check-mes-btm .check-manner .check-manner-pay p{
+	height:24px;
+	line-height:24px;
+	color:#666;
+	font-size:12px;
+	padding:0 23px;
+	}
+
+/*编辑收货人效果*/
+.check-mes .check-mes-btm .check-mes-change{
+	width:1204px;
+	height:400px;
+	border:2px solid #f60;
+	background:#fff;
+	}
+.check-mes .check-mes-btm .check-mes-change p{
+	padding-left:20px;
+	}
+.check-mes .check-mes-btm .check-chan-add{
+	width:1174px;
+	height:140px;
+	padding:10px 0 0 30px;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add{
+	width:1174px;
+	height:35px;
+	line-height:35px;
+	font-size:13px;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add .chan-radio-dres p{
+	height:40px;
+	line-height:40px;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add .chan-radio-dres p span{
+	width:80px;
+	height:40px;
+	line-height:40px;
+	display:block;
+	float:left;
+	text-align:right;
+	margin-right:3px;
+	color:#666;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add .chan-radio-dres p span em{
+	color:#e12418;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add b{
+	padding-right:10px;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add a{
+	height:30px;
+	line-height:35px;
+	display:block;
+	float:left;
+	text-align:center;
+	color:#005ea7;
+	margin-left:20px;
+	text-decoration:none;
+	}
+.check-mes .check-mes-btm .check-chan-add .chan-mes-add a:hover{
+	text-decoration:underline;
+	}
+.check-mes .check-mes-btm .check-chan-add .pro-tect{
+	width:160px;
+	height:40px;
+	display:block;
+	line-height:30px;
+	background:#e12418;
+	border:none;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	margin-top:6px;
+	cursor:pointer;
+	}
+.check-mes .check-mes-btm .check-chan-add .pro-tect:hover{
+	background:#f00;
+	}
+.check-mes .check-mes-btm .chan-radio-dres{
+	width:600px;
+	height:30px;
+	line-height:30px;
+	}
+.check-mes .check-mes-btm .chan-radio-dres em{
+	margin-right:3px;
+	}
+.check-mes .check-mes-btm .chan-radio-dres b{
+	font-weight:normal;
+	margin-left:10px;
+	}
+.check-mes .check-mes-btm .chan-radio-dres input{
+	height:20px;
+	margin-top:9px;
+	}
+/*编辑收货人效果*/	
+	
+/*收货人信息*/
+.check-mes .check-mes-btm .check-bill{
+	width:1162px;
+	height:114px;
+	padding:0 23px;
+	border-bottom:1px solid #dfddde;
+	}
+.check-mes .check-mes-btm .check-bill .check-bill-mes p{
+	height:24px;
+	line-height:24px;
+	color:#666;
+	font-size:12px;
+	padding:0 23px;
+	}
+.check-mes .check-mes-btm .check-detail{
+	width:1162px;
+	height:450px;
+	padding:0 23px;
+	border-bottom:1px solid #dfddde;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-bill{
+	width:1162px;
+	height:55px;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-bill h4{
+	font-size:14px;
+	height:55px;
+	line-height:60px;
+	color:#000;
+	float:left;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-bill a{
+	color:#005ea7;
+	height:55px;
+	line-height:60px;
+	text-decoration:none;
+	float:right;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-bill a:hover{
+	text-decoration:underline;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot{
+	width:1112px;
+	height:255px;
+	padding:0 25px;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-top ul{
+	width:1112px;
+	height:27px;
+	line-height:27px;
+	background:#eee;
+	}
+
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-top ul li{
+	width:218px;
+	text-align:center;
+	height:27px;
+	float:left;
+	border-right:1px solid #fff;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num{
+	width:1112px;
+	height:115px;
+	border-bottom:1px dotted #dfddde;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num ul{
+	width:1112px;
+	height:115px;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num ul li{
+	width:218px;
+	height:115px;
+	line-height:108px;
+	float:left;
+	text-align:center;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num ul li img{
+	float:left;
+	width:40px;
+	border:1px solid #dfddde;
+	padding:10px;
+	margin-top:24px;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num ul li img:hover{
+	border:1px solid #fc3;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num .det-cot-fon{
+	width:245px;
+	height:70px;
+	line-height:23px;
+	display:block;
+	float:left;
+	padding-left:15px;
+	margin:22px 0;
+	text-overflow:ellipsis;
+	white-space:normal;
+	overflow:hidden;
+	color:#005ea7;
+	text-decoration:none;
+	text-align:left;
+	}
+.check-mes .check-mes-btm .check-detail .check-det-cot .det-cot-num .det-cot-fon:hover{
+	text-decoration:underline;
+	}
+.check-mes .check-mes-btm .check-detail .det-gods-num{
+	width:1112px;
+	height:95px;
+	line-height:135px;
+	padding-top:40px;
+	}
+.check-mes .check-mes-btm .check-detail .det-gods-num p{
+	color:#005ea7;
+	text-align:right;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	}
+.check-mes .check-mes-btm .det-pro-dill{
+	width:1208px;
+	height:70px;
+	line-height:70px;
+	}
+.check-mes .check-mes-btm .det-pro-dill .det-dill-cost{
+	width:360px;
+	height:70px;
+	float:right;
+	}
+.check-mes .check-mes-btm .det-pro-dill .det-dill-cost span{
+	width:160px;
+	height:70px;
+	display:block;
+	color:#666;
+	float:left;
+	}
+.check-mes .check-mes-btm .det-pro-dill .det-dill-cost span strong{
+	font-size:22px;
+	color:#e12418;
+	padding-left:10px;
+	}
+.check-mes .check-mes-btm .det-pro-dill .det-dill-cost a{
+	width:170px;
+	height:70px;
+	background:#e12418;
+	text-align:center;
+	display:block;
+	float:right;
+	color:#fff;
+	text-decoration:none;
+	font-size:22px;
+	}
+.check-mes .check-mes-btm .det-pro-dill .det-dill-cost a:hover{
+	background:#f00;
+	}
+/*收货人信息*/
+
+/*编辑收货地址*/
+
+.deal-main .rep-add-top{
+	width:1070px;
+	height:45px;
+	line-height:45px;
+	background:#e2e2e2;
+	}
+.deal-main .rep-add-top h5{
+	color:#000;
+	font-size:16px;
+	font-weight:bold;
+	padding-left:60px;
+	}
+.deal-main .rep-add-btm{
+	width:970px;
+	height:440px;
+	padding:20px 0 0 100px;
+	}
+.deal-main .rep-add-btm .rep-add-pro{
+	width:970px;
+	height:440px;
+	}
+.deal-main .rep-add-btm .rep-add-pro p{
+	line-height:30px;
+	font-size:14px;
+	}
+.deal-main .rep-add-btm .rep-add-pro p input{
+	width:200px;
+	}
+.deal-main .rep-add-btm .rep-add-pro p em{
+	padding-left:170px;
+	font-style:normal;
+	}
+.deal-main .rep-add-btm .rep-add-pro p b{
+	font-weight:normal;
+	margin:0 10px;
+	}
+.deal-main .rep-add-btm .rep-add-pro p .rep-gods-add{
+	width:440px;
+	}
+.deal-main .rep-add-btm .rep-add-pro p .rep-gods-pro{
+	padding:0 10px;
+	}
+.deal-main .rep-add-btm .rep-add-pro p .pro-add-res{
+	width:120px;
+	height:30px;
+	margin-top:22px;
+	font-size:12px;
+	cursor:pointer;
+	border:1px solid #add5c0;
+	background:#e0fbed;
+	background: -moz-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c2eccf));
+	background: -webkit-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -o-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -ms-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: linear-gradient(to bottom, #e0fbed 0, #c2eccf 100%);
+	-pie-background: linear-gradient(top, #e0fbed 0, #c2eccf);
+	}
+.deal-main .rep-add-btm .rep-add-pro p select{
+	width:100px;
+	margin-right:10px;
+	height:30px;
+	
+	}
+.deal-main .rep-add-btm .rep-add-pro p span{
+	color:#e12418;
+	padding-right:3px;
+	}
+	
+/*编辑收货地址*/
+
+/*新增收货地址*/
+.deal-main .add-up-case{
+	width:900px;
+	height:370px;
+	background:#fff;
+	margin:0 auto;
+	padding-top:20px;
+	}
+.deal-main .add-up-case p{
+	height:35px;
+	line-height:35px;
+	}
+.deal-main .add-up-case input{
+	width:150px;
+	height:30px;
+	line-height:25px;
+	font-size:14px;
+	cursor:pointer;
+	font-weight:bold;
+	border:1px solid #add5c0;
+	background:#e0fbed;
+	background: -moz-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c2eccf));
+	background: -webkit-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -o-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -ms-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: linear-gradient(to bottom, #e0fbed 0, #c2eccf 100%);
+	-pie-background: linear-gradient(top, #e0fbed 0, #c2eccf);
+	}
+.deal-main .add-up-case p b{
+	font-weight:normal;
+	margin-left:15px;
+	}
+.deal-main .add-up-case p span{
+	color:#44ab64;
+	}
+.deal-main .add-up-case .add-case-mes{
+	width:900px;
+	height:270px;
+	border:2px solid #ddd;
+	margin-top:15px;
+	}
+.deal-main .add-up-case .add-case-mes .add-name-del{
+	width:900px;
+	height:40px;
+	line-height:40px;
+	}
+.deal-main .add-up-case .add-case-mes .add-name-del span{
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	padding-left:30px;
+	}
+.deal-main .add-up-case .add-case-mes .add-name-del a{
+	width:50px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	display:block;
+	float:right;
+	color:#000;
+	text-decoration:none;
+	margin:10px 10px 0 10px;
+	background:#f5f5f5;
+	border:1px solid #bbb;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:53px;
+	}
+.deal-main .add-up-case .add-case-mes .add-name-del a:hover{
+	background:#e0fbed;
+	background: -moz-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c2eccf));
+	background: -webkit-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -o-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -ms-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: linear-gradient(to bottom, #e0fbed 0, #c2eccf 100%);
+	-pie-background: linear-gradient(top, #e0fbed 0, #c2eccf);
+	}
+.deal-main .add-up-case .add-case-mes .add-mes-det{
+	width:900px;
+	height:220px;
+	padding-top:10px;
+	}
+.deal-main .add-up-case .add-case-mes .add-mes-det p{
+	height:30px;
+	line-height:30px;
+	color:#333;
+	}
+.deal-main .add-up-case .add-case-mes .add-mes-det p span{
+	width:130px;
+	height:30px;
+	line-height:30px;
+	display:inline-block;
+	text-align:right;
+	color:#666;
+	margin-right:10px;
+	}

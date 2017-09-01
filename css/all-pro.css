@@ -1,0 +1,193 @@
+.all-pro{
+	width:1210px;
+	overflow:hidden;
+	margin:auto;
+	}
+.all-pro a{
+	font-size:16px;
+	color:#333;
+	text-decoration:none;
+	}
+.list-left{
+	width:210px;
+	float:left;
+	}
+.pro-list{
+	width:990px;
+	float:right;
+	}
+.list-left ul{
+	background:#f9f9f9;
+	width:210px;
+	}
+.list-left ul li{
+	width:210px;
+	border-bottom:1px solid #ddd;
+	}
+.list-left li a{
+	display:block;
+	padding:0 20px;
+	height:50px;
+	line-height:50px;
+	}
+.list-left li a:hover{
+	color:#fff;
+	background:#f00;
+	}
+.pro-list a:hover{
+	color:#f00;
+	}
+.wid-heig{
+	width:990px;
+	height:330px;
+	}
+.pro-list ul{
+	width:990px;	
+}
+.pro-list li{
+	width:300px;
+	float:left;
+	padding:0 10px 10px 10px;
+	text-align:center;
+	background:#fff;
+	margin:5px;
+	}
+/*1s系列产品*/
+.margin-auto{
+	width:990px;
+	margin:0 auto !important;
+	float:none !important;
+	overflow:hidden;
+	}
+.goods-1s{
+	width:975px;
+	height:38px;
+	background:url(../img-pro/ttBg950.png) no-repeat;
+	margin-top:15px;
+	}
+.goods-1s h2{
+	padding-left:25px;
+	float:left;
+	line-height:38px;
+	color:#fff;
+	}
+.margin-top{
+	padding-top:20px;
+	}
+/*所有产品分类*/
+.all-goods{
+	width:990px;
+	height:135px;
+	}
+.all-goods ul{
+	width:990px;
+	padding-top:15px;
+	}
+.all-goods ul li{
+	width:990px;
+	line-height:40px;
+	text-align:left;
+	margin:0;
+	padding:0;
+	border-bottom:1px dotted #ccc;
+	}
+.all-goods span{
+	display:inline-block;
+	float:left;
+	padding-left:10px;
+	margin:0 10px;
+	}
+.goods-qing{
+	display:inline-block;
+	float:right;margin-right:20px;
+	padding:5px 10px;
+	background:#e12418;
+	font-size:16px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-top:15px;
+	color:#fff !important;
+	}
+.goods-qing:hover{
+	background:#f00;
+	color:#fff !important;
+	}
+.font-size{
+	display:inline-block;
+	font-size:24px;
+	color:#f00;
+	padding-top:15px;
+	}
+.fen-lei{
+	width:100px;
+	font-size:14px;
+	display:inline-block;
+	height:40px;	
+	background:#ccc;
+	margin:0 !important;
+}
+.r{
+	float:right !important;
+	}
+/*排列顺序*/
+.goods-xu{
+	width:990px;
+	height:45px;
+	padding-top:10px;
+	margin-top:10px;
+	background:#09c;
+   background-image:-moz-linear-gradient(top, #f5f5f5, #dedede); /* Firefox 3.6 */
+   background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0, #dedede),color-stop(1, #f5f5f5)); /* Safari & Chrome */
+   filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f5f5f5', endColorstr='#dedede'); /* IE6 & IE7 */
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f5f5f5', endColorstr='#dedede')"; /* IE8 */  
+   -ms-linear-gradient(top bottom, #f5f5f5,#dedede);
+	}
+.goods-xu ul{
+	width:988px;
+	height:40px;
+	border:1px solid #CCC;
+	}
+.goods-xu ul li{
+	width:100px;
+	float:left;
+	height:40px;
+	line-height:40px;
+	background:none;
+	border-right:1px solid #ccc;
+	padding:0;
+	margin:0;
+	}
+.goods-xu a{
+	display:inline-block;
+	width:100px;
+	}
+.goods-xu a:hover{
+	background:#f00;
+	color:#fff;
+	}
+.goods-xu .xiao-liang{
+	background:#f00;
+	color:#fff;
+	}
+.float-left{
+	float:left;
+	}
+.float-rig{
+	display:inline;
+	float:right;
+	}
+.float-rig a{
+	line-height:38px;
+	padding-right:15px;
+	color:#fff;
+	}
+.float-rig a:hover{
+	color:#fff;
+	text-decoration:underline;
+	}
+.pad-left-20{
+	line-height:45px;
+	padding-left:20px;
+	color:#f00 !important;
+	}

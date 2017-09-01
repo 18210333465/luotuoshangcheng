@@ -1,0 +1,563 @@
+table{
+	border-collapse:collapse;
+	}
+table,tbody,tr,td{
+	border:1px solid #dfddde;
+	}
+section,option{
+	border:1px solid #dfddde;
+	border-color:#dfddde;
+	}
+input[type="text"]{
+	border:1px solid #ccc;
+	height:25px;
+	}
+/*订单页*/
+/*我的订单*/
+.deal_mag{
+	width:115px;
+	height:225px;
+	background:#fff;
+	padding:15px 5px 15px 10px;
+	float:left;
+	}
+.deal_mag h2{
+	color:#333;
+	font-size:16px;
+	margin-bottom: 8px;
+	}
+.deal_mag p{
+	height:24px;
+	line-height:24px;
+	padding-left: 20px;
+
+	}
+.deal_mag p a{
+	color:#333;
+	text-decoration:none;
+	}
+.deal_mag p a:hover{
+	color:#e12428;
+	text-decoration:underline;
+	}
+.deal_mag p .deal_me{
+	color:#e12428;
+	}
+.deal_mag .deal-curstom{
+	width:115px;
+	}
+.deal_mag .deal-curstom p{
+	line-height:25px;
+	}
+.deal_mag .deal-curstom p a{
+	color:#666;
+	text-decoration:none;
+	}
+.deal_mag .deal-curstom p a:hover{
+	color:#e12418;
+	text-decoration:underline;
+	}
+.deal_mag .deal-curstom .deal-cur-tom{
+	padding-left:6px;
+	color:#333;
+	}
+.deal_mag .deal-curstom .deal-cur-tom  b{
+	display: inline-block;
+	vertical-align: middle;
+	width:11px;
+	height:11px;
+	margin-right:3px;
+	overflow:hidden;
+	cursor:pointer;
+	background:url(../images/deal_bg.png) no-repeat;
+	background-position:0 0;
+	}
+.deal_mag .deal-curstom .deal-cur-tom a{
+	color:#333;
+	text-decoration:none;
+	}
+	
+/*订单详情*/
+
+.deal_rig{
+	width:1070px;
+	overflow:hidden;
+	padding-left:10px;
+	float:left;
+	}
+.deal_rig .deal_top{
+	width:1030px;
+	height:88px;
+	background:#fff;
+	padding:10px 20px;
+	}
+.deal_rig .deal_top p{
+	color:#333;
+	height:18px;
+	line-height:18px;
+	padding: 10px 0;
+	font-size:14px;
+	font-weight:bold;
+	}
+.deal_rig .deal_top dl{
+	width:1030px;
+	height:50px;
+	}
+.deal_rig .deal_top dl dt{
+	width:60px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	padding-left:5px;
+	color:#333;
+	}
+.deal_rig .deal_top dl dd{
+	height:30px;
+	line-height:30px;
+	float:left;
+	padding-right:20px;
+	color:#666;
+	}
+.deal_rig .deal_top dl dd span{
+	color:#e12428;
+	}
+	
+/*全部订单*/
+.deal_rig .deal_btm{
+	width:1030px;
+	height:565px;
+	background:#fff;
+	padding:10px 20px;
+	margin-top:10px;
+	}
+.deal_rig .deal_btm .deal_sea{
+	width:1030px;
+	height:41px;
+	padding-top:10px;
+	}	
+.deal_rig .deal_btm .deal_sea h3{
+	width:105px;
+	height:27px;
+	line-height:27px;
+	display:block;
+	float:left;
+	text-align:center;
+	color:#e12428;
+	font-size:14px;
+	font-weight:bold;
+	}
+.deal_rig .deal_btm .deal_sea .sea_ch{
+	width:265px;
+	height:27px;
+	float:right;
+	}	
+.deal_rig .deal_btm .deal_sea .sea_ch input{
+	line-height: 18px;
+	border: 1px solid #ccc;
+	padding: 3px 5px 4px;
+	float: none;
+	width: 195px;
+	}	
+.deal_rig .deal_btm .deal_sea .sea_ch .del_rch{
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #ddd;
+	padding: 2px 14px 3px;
+	color:#666;
+	text-decoration:none;
+	}
+
+/*产品list详情*/
+.deal_rig .deal_btm .tb-lt{
+	line-height: 18px;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+	border-top: 0;
+	color: #333;
+	width: 100%;
+	}
+
+.deal_rig .deal_btm a{
+	color:#206bae;
+	text-decoration:none;
+	}
+.deal_rig .deal_btm a:hover{
+	text-decoration:underline;
+	}
+	
+/*购买的产品*/
+.deal_rig .deal_btm .del_list{
+	width:1030px;
+	height:438px;
+	}
+.deal_rig .deal_btm .del_list section{
+	border-color:#f2f2f2;
+	}
+.deal_rig .deal_btm table thead th{
+	border:none;
+	}	
+.deal_rig .deal_btm table td img{
+	border:1px solid #f2f2f2;
+	padding:10px;	
+	}
+.deal_rig .deal_btm table td img:hover{
+	border:1px solid #fc3;
+	}
+.deal_rig .deal_btm table th{
+	height:32px;
+	line-height: 32px;
+	padding:0 5px;
+	text-align:center;
+	font-weight:400;
+	}
+.deal_rig .deal_btm table td{
+	text-align:center;
+	}
+.deal_rig .deal_btm table .del-pro{
+	height:80px;
+	padding:10px;
+	text-align:left;
+	}
+.deal_rig .deal_btm .list-num{
+	height:32px;
+	line-height:32px;
+	padding-left:10px;
+	text-align:left;
+	}
+.deal_rig .deal_btm table td span{
+	width:165px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	display:block;
+	}
+.deal_rig .deal_btm table td span a{
+	padding:0 5px;
+	}
+.deal_rig .deal_btm table td span .pay{
+	padding:7px 20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	text-align:center;
+	background:#e12428;
+	color:#fff;
+	text-decoration:none;
+	}
+.deal_rig .deal_btm table td span .pay:hover{
+	background:#f00;
+	color:#fff;
+	}
+/*下一页*/
+.deal_rig .deal_btm .next-ye{
+	width:1030px;
+	height:85px;
+	}
+.deal_rig .deal_btm .next-ye a{
+	width:28px;
+	height:28px;
+	line-height:28px;
+	border:1px solid #ccc;
+	display:inline-block;
+	text-align:center;
+	color:#666;
+	margin:0 3px;
+	float:left;
+	text-decoration:none;
+	}
+.deal_rig .deal_btm .next-ye a:hover{
+	text-decoration:none;
+	background:#005aa0;
+	color:#fff;
+	}
+.deal_rig .deal_btm .next-ye .next_lef{
+	width:260px;
+	height:60px;
+	padding-top:25px;
+	float:right;
+	}
+.deal_rig .deal_btm .next-ye .next_lef .next-one{
+	width:60px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	color:#666;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding-left:5px;
+	border:1px solid #ccc;
+	position:relative;
+	background:none;
+	}	
+.deal_rig .deal_btm .next-ye .next_lef .next-one b{
+	position:absolute;
+	width:5px;
+	height:9px;
+	display:block;		
+	background:url(../images/next-ye.png) no-repeat;
+	background-position:0 0;
+	top:9px;
+	left:6px;
+	}
+.deal_rig .deal_btm .next-ye .next_lef .next-two{
+	width:60px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	color:#666;
+	text-decoration:none;
+	display:block;
+	float:right;
+	padding-right:5px;
+	border:1px solid #ccc;
+	position:relative;
+	background:none;
+	}
+.deal_rig .deal_btm .next-ye .next_lef .next-two b{
+	position:absolute;
+	width:5px;
+	height:9px;
+	display:block;		
+	background:url(../images/next-ye.png) no-repeat;
+	background-position:-7px 0;
+	top:9px;
+	left:53px;
+	}
+.deal_rig .deal_btm .next-ye .dang-q{
+	width:28px;
+	height:28px;
+	line-height:28px;
+	display:inline-block;
+	text-align:center;
+	color:#666;
+	margin:0 3px;
+	color:#ff6400;
+	text-decoration:none;
+	background:none;
+	border:none;
+	}
+.deal_rig .deal_btm .next-ye .dang-q:hover{
+	text-decoration:none;
+	background:none;
+	border:none;
+	color:#ff6400;
+	}
+	
+/*个人基本信息*/
+.deal-main{
+	width:1070px;
+	overflow:hidden;
+	margin-left:10px;
+	background:#fff;
+	float:right;
+	}
+.deal-main .deal-mian-top{
+	width:1030px;
+	height:40px;
+	padding-left:40px;
+	margin-top:10px;
+	}
+.deal-main .deal-mian-top .mian-top-T{
+	width:1030px;
+	height:40px;
+	line-height:40px;
+	}
+.deal-main .deal-mian-top .top-pan{
+	width:70px;
+	height:37px;
+	display:block;
+	line-height:50px;
+	text-align:center;
+	border-bottom:3px solid #e12418;
+	float:left;
+	font-size:14px;
+	text-decoration:none;
+	color:#e12418;
+	font-weight:bold;
+	}
+.deal-main .deal-mian-top .top-pan:hover{
+	text-decoration:none;
+	}
+.deal-main .deal-mian-top a{
+	height:40px;
+	color:#666;
+	text-decoration:none;
+	float:left;
+	line-height:55px;
+	margin:0 15px;
+	}
+.deal-main .deal-mian-top a:hover{
+	color:#e12418;
+	text-decoration:underline;
+	}
+.deal-main .mian-top-L{
+	width:650px;
+	height:415px;
+	float:left;
+	padding-top: 10px;
+	}
+.deal-main .mian-top-L .mian-mes-del{
+	width:650px;
+	height:45px;
+	}
+.deal-main .mian-top-L span{
+	width:160px;
+	height:45px;
+	line-height:45px;
+	text-align:right;
+	display:block;
+	padding-right:10px;
+	color:#666;
+	float:left;
+	}
+.deal-main .mian-top-L span em{
+	color:#e12418;
+	line-height:40px;
+	margin:0 3px;
+	}
+.deal-main .mian-top-L .mail-mem{
+	width:120px;
+	height:45px;
+	line-height:45px;
+	text-align:left;
+	}
+.deal-main .mian-top-L .mail-mem a{
+	color:#005ea7;
+	text-decoration:none;
+	}
+.deal-main .mian-top-L .mail-mem a:hover{
+	color:#e12418;
+	text-decoration:underline;
+	}
+.deal-main .mian-top-L .mian-cen-name{
+	width:480px;
+	height:45px;
+	line-height:45px;
+	float:left;
+	}
+.deal-main .mian-top-L .mian-cen-name input{
+	width:150px;
+	margin-top:9px;
+	}
+.deal-main .mian-top-L .mian-cen-name .put-up-mes{
+	width:100px;
+	height:30px;
+	font-size:12px;
+	cursor:pointer;
+	margin-top:15px;
+	border:1px solid #add5c0;
+	background:#e0fbed;
+	background: -moz-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c2eccf));
+	background: -webkit-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -o-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: -ms-linear-gradient(top, #e0fbed 0, #c2eccf 100%);
+	background: linear-gradient(to bottom, #e0fbed 0, #c2eccf 100%);
+	-pie-background: linear-gradient(top, #e0fbed 0, #c2eccf);
+	}
+.deal-main .mian-top-L .mian-cen-name .mes-party{
+	width:100px;
+	float:lef;
+	padding:0;
+	color:#e12418;
+	}
+.deal-main .mian-top-L .mian-cen-name .mes-tall{
+	width:330px;
+	margin-top:10px;
+	}
+.deal-main .mian-top-L .mian-cen-name .birt-date{
+	width:335px;
+	float:left;
+	text-align:left;
+	padding:0;
+	}
+.deal-main .mian-top-L .mian-cen-name select{
+	width:78px;
+	height:30px;
+	line-height:30px;
+	margin-right:8px;
+	text-align:center;
+	}
+.deal-main .mian-top-L .mian-cen-name .but-ton{
+	width:75px;
+	line-height:20px;
+	}
+.deal-main .mian-top-L .mian-cen-name .select-sex{
+	width:15px;
+	}
+.deal-main .deal-mian-R{
+	width:420px;
+	height:425px;
+	float:left;
+	}
+.deal-main .deal-mian-R a{
+	color:#005ea7;
+	text-decoration:none;
+	margin:0 6px;
+	}
+.deal-main .deal-mian-R a:hover{
+	text-decoration:underline;
+	color:#e12418;
+	}
+.deal-main .deal-mian-R .mian-member{
+	width:330px;
+	height:150px;
+	border:1px solid #ddd;
+	}
+.deal-main .deal-mian-R .mian-member .mem-left{
+	width:105px;
+	height:100px;
+	padding:25px 0 25px 15px;
+	float:left;
+	}
+.deal-main .deal-mian-R .mian-member .mem-right{
+	width:190px;
+	height:100px;
+	float:left;
+	padding:25px 0 25px 20px;
+	}
+.deal-main .deal-mian-R .mian-member .mem-right p{
+	height:25px;
+	line-height:25px;
+	}
+.deal-main .deal-mian-R .mian-member .mem-bg{
+	width:17px;
+	height:17px;
+	display:block;
+	float:left;
+	background:url(../images/fL-02.png) no-repeat left center;
+	padding-top:6px;
+	}
+.deal-main .deal-mian-R .mian-member .mem-right .mem-rank-L{
+	width:85px;
+	height:25px;
+	line-height:25px;
+	display:block;
+	float:left;
+	}
+.deal-main .deal-mian-R .mian-member .mem-right .mem-rank-R{
+	width:15px;
+	height:25px;
+	line-height:25px;
+	display:block;
+	float:left;
+	background:url(../images/fl-01.png) no-repeat left center;
+	}
+.deal-main .deal-mian-R .mem-bot{
+	width:320px;
+	height:35px;
+	line-height:35px;
+	}
+.deal-main .deal-mian-R .mem-bot p{
+	text-align:center;
+	}
+	
+/*个人信息结束*/
+
+
