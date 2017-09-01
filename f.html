@@ -1,0 +1,46 @@
+<html >
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+  <script type="text/javascript">
+    function showaa(obj)
+    {
+      var obj_parent=obj.parentElement
+     
+      if(obj_parent.className=="aa_show")
+      {
+        obj_parent.className="aa_hide";
+      }
+      else
+      {
+        obj_parent.className="aa_show";
+      }
+     
+    }
+    
+  </script>
+  <style type="text/css">
+    .aa_show a.two
+    {
+      display:block;
+    }
+    .aa_hide a.two
+    {
+      display:none;
+    }
+.pos-tion{
+	position:absolute;
+	margin:0 auto;
+	}
+  </style>
+  
+<body>
+  <div class="aa_hide">
+    <a href="#" onclick="showaa(this)"><img src="../images/LOGO2.png" width="130" height="80"></a><br/>
+     <div class="pos-tion"><a class="two" href="#" >本文出自：http://www.cnblogs.com/ribavnu/p/3228887.html</a></div>
+ </div>
+</body>
+</html>
+
+ 
